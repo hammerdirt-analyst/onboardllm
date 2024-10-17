@@ -1,4 +1,4 @@
-# Llama model 3.2-3b
+# Onboard llm google-gemma-2-2b
 
 This is a local LLM (Large Language Model) service running in a Docker container. It uses the Llama 3.23b model and anticipates CUDA-compatible hardware for optimal performance. The application leverages Gunicorn to provide an easy-to-use API for generating text based on prompts, and it's packaged for simple deployment.
 
@@ -6,11 +6,19 @@ This is a local LLM (Large Language Model) service running in a Docker container
 
 ```
 my_docker_project/
+model/your-model-name/
+  |— safetensors
+  |— modelconfig
+  |— other files from trained model
+offload/
+  |— volume for offloading durring inferene
 |— Dockerfile
 |— app.py
 |— requirements.txt
 |— README.md
 |— .dockerignore
+|— .env (not included)
+
 ```
 
 ## Setup and Running Instructions
