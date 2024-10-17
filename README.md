@@ -1,6 +1,6 @@
 # Onboard llm google-gemma-2-2b
 
-This is a local LLM (Large Language Model) service running in a Docker container. It uses the Llama 3.23b model and anticipates CUDA-compatible hardware for optimal performance. The application leverages Gunicorn to provide an easy-to-use API for generating text based on prompts, and it's packaged for simple deployment.
+This is a local LLM (Large Language Model) service running in a Docker container. It uses the google-gemma-2-2b model and anticipates CUDA-compatible hardware for optimal performance. The application leverages Gunicorn to provide an easy-to-use API for generating text based on prompts, and it's packaged for simple deployment using hugging face transformers.
 
 ## Project Structure
 
