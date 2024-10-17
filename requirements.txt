@@ -1,0 +1,7 @@
+transformers > 4.38.2
+flask >=2.3.3
+torch>=2.1.0+cu121
+sacremoses >=0.0.53
+sentencepiece >=0.1.99
+accelerate>=0.26.0
+gunicorn

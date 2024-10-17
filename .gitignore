@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+
+# Virtual environment directories
+venv/
+.venv/
+
+# Docker-related files
+*.log
+docker-compose.override.yml
+docker-sync.yml
+.docker/
+.dockerignore
+
+# Exclude mounted volumes (model and offload directories)
+model/
+offload/
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm and VSCode files
+.idea/
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Logs, coverage reports, and other temporary files
+*.out
+*.tmp
+
+# pytest
+.cache/
+
+# Profiling data
+.prof
